@@ -1,0 +1,20 @@
+{
+  "name": "json-rpc-demo",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "server": "ts-node src/service/index.ts",
+    "client": "ts-node src/client/index.ts"
+  },
+  "devDependencies": {
+    "@swc/wasm": "1.2.210",
+    "@types/node": "^20.6.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "json-rpc2": "^2.0.0"
+  }
+}
