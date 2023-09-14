@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "server": "ts-node src/service/index.ts",
-    "client": "ts-node src/client/index.ts"
+    "server": "ts-node src/service/index.ts"
   },
   "devDependencies": {
     "@swc/wasm": "1.2.210",
